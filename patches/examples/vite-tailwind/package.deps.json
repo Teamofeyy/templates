@@ -1,0 +1,7 @@
+{
+  "comment": "Пример devDependencies для Vite + Tailwind v4 (версии уточнять под шаблон)",
+  "devDependencies": {
+    "tailwindcss": "^4.2.0",
+    "@tailwindcss/vite": "^4.2.0"
+  }
+}

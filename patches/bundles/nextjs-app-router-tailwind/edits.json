@@ -1,0 +1,10 @@
+{
+  "edits": [
+    {
+      "mode": "insertAfter",
+      "target": "README.md",
+      "template": "snippets/insert-nextjs-routing-note.md",
+      "anchor": "Currently, two official plugins are available:"
+    }
+  ]
+}

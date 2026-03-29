@@ -1,0 +1,8 @@
+{
+  "comment": "Пример dependencies для Next + Tailwind v4 PostCSS",
+  "dependencies": {
+    "tailwindcss": "^4.2.0",
+    "@tailwindcss/postcss": "^4.2.0",
+    "postcss": "^8.4.0"
+  }
+}
