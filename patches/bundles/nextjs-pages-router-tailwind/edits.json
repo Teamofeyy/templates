@@ -5,6 +5,17 @@
       "target": "README.md",
       "template": "snippets/insert-nextjs-routing-note.md",
       "anchor": "Currently, two official plugins are available:"
+    },
+    {
+      "mode": "insertBefore",
+      "target": "app/globals.css",
+      "template": "snippets/insert-tailwind-css.css",
+      "anchor": ":root {"
+    },
+    {
+      "mode": "replace",
+      "target": "postcss.config.mjs",
+      "template": "snippets/postcss.config.mjs"
     }
   ]
 }
