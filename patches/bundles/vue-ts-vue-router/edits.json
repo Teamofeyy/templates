@@ -1,0 +1,29 @@
+{
+  "edits": [
+    {
+      "mode": "replace",
+      "target": "src/main.ts",
+      "template": "snippets/main.ts"
+    },
+    {
+      "mode": "replace",
+      "target": "src/App.vue",
+      "template": "snippets/App.vue"
+    },
+    {
+      "mode": "replace",
+      "target": "src/router.ts",
+      "template": "snippets/router.ts"
+    },
+    {
+      "mode": "replace",
+      "target": "src/views/HomeView.vue",
+      "template": "snippets/HomeView.vue"
+    },
+    {
+      "mode": "replace",
+      "target": "src/views/AboutView.vue",
+      "template": "snippets/AboutView.vue"
+    }
+  ]
+}

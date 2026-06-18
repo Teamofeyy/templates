@@ -55,7 +55,11 @@
 ### Примеры
 
 - `react-ts-react-router-tailwind`
+- `react-ts-tailwind`
+- `vue-ts-vue-router`
+- `vue-ts-tailwind`
 - `nextjs-app-router-tailwind`
+- `nextjs-pages-router`
 - `nextjs-pages-router-tailwind`
 - `default`
 
@@ -90,8 +94,9 @@
   - `append` — дописать `template` в конец `target`
   - `insertAfter` — вставить `template` после первого вхождения `anchor` в `target`
   - `insertBefore` — вставить `template` перед первым вхождением `anchor` в `target`
+  - `delete` — удалить файл или папку `target`; `template` не нужен
 - `target` — путь относительно корня проекта
-- `template` — путь относительно папки bundle
+- `template` — путь относительно папки bundle; не используется для `delete`
 - `anchor` — нужен для `insertAfter/insertBefore`
 - `skip_if_missing_target` (опционально) — если `true` и `target` отсутствует, edit пропускается
 - `only_if_features` (опционально) — apply только если **все** перечисленные Feature выбраны
@@ -137,5 +142,9 @@
 
 Смотри готовые демо-bundles:
 - `templates/patches/bundles/react-ts-react-router-tailwind/`
+- `templates/patches/bundles/react-ts-tailwind/`
+- `templates/patches/bundles/vue-ts-vue-router/`
+- `templates/patches/bundles/vue-ts-tailwind/`
+- `templates/patches/bundles/nextjs-pages-router/`
 - `templates/patches/bundles/nextjs-app-router-tailwind/`
 - `templates/patches/bundles/nextjs-pages-router-tailwind/`

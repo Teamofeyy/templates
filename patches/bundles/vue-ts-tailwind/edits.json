@@ -2,14 +2,14 @@
   "edits": [
     {
       "mode": "insertBefore",
-      "target": "styles/globals.css",
+      "target": "src/style.css",
       "template": "snippets/insert-tailwind-css.css",
       "anchor": ":root {"
     },
     {
       "mode": "replace",
-      "target": "postcss.config.mjs",
-      "template": "snippets/postcss.config.mjs"
+      "target": "vite.config.ts",
+      "template": "snippets/vite.config.ts"
     }
   ]
 }

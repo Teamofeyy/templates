@@ -1,0 +1,28 @@
+{
+  "edits": [
+    {
+      "mode": "delete",
+      "target": "app"
+    },
+    {
+      "mode": "replace",
+      "target": "pages/_app.tsx",
+      "template": "snippets/_app.tsx"
+    },
+    {
+      "mode": "replace",
+      "target": "pages/index.tsx",
+      "template": "snippets/index.tsx"
+    },
+    {
+      "mode": "replace",
+      "target": "styles/globals.css",
+      "template": "snippets/globals.css"
+    },
+    {
+      "mode": "replace",
+      "target": "README.md",
+      "template": "snippets/README.md"
+    }
+  ]
+}
