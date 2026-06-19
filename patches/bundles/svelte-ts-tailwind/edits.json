@@ -1,0 +1,15 @@
+{
+  "edits": [
+    {
+      "mode": "insertBefore",
+      "target": "src/app.css",
+      "template": "snippets/insert-tailwind-css.css",
+      "anchor": ":root {"
+    },
+    {
+      "mode": "replace",
+      "target": "vite.config.ts",
+      "template": "snippets/vite.config.ts"
+    }
+  ]
+}

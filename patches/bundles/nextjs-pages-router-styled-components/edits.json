@@ -1,0 +1,14 @@
+{
+  "edits": [
+    {
+      "mode": "replace",
+      "target": "next.config.ts",
+      "template": "snippets/next.config.ts"
+    },
+    {
+      "mode": "replace",
+      "target": "pages/index.tsx",
+      "template": "snippets/index.tsx"
+    }
+  ]
+}
