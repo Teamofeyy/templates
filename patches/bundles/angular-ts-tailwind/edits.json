@@ -1,0 +1,15 @@
+{
+  "edits": [
+    {
+      "mode": "insertBefore",
+      "target": "src/styles.css",
+      "template": "snippets/insert-tailwind-css.css",
+      "anchor": "/* You can add global styles"
+    },
+    {
+      "mode": "replace",
+      "target": ".postcssrc.json",
+      "template": "snippets/postcssrc.json"
+    }
+  ]
+}

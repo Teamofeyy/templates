@@ -1,0 +1,9 @@
+{
+  "edits": [
+    {
+      "mode": "replace",
+      "target": "src/views/HomeView.vue",
+      "template": "snippets/HomeView.vue"
+    }
+  ]
+}

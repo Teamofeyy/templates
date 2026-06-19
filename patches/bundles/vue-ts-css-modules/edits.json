@@ -1,0 +1,9 @@
+{
+  "edits": [
+    {
+      "mode": "replace",
+      "target": "src/App.vue",
+      "template": "snippets/App.vue"
+    }
+  ]
+}

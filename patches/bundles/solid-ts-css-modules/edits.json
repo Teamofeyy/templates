@@ -1,0 +1,14 @@
+{
+  "edits": [
+    {
+      "mode": "replace",
+      "target": "src/App.tsx",
+      "template": "snippets/App.tsx"
+    },
+    {
+      "mode": "replace",
+      "target": "src/App.module.css",
+      "template": "snippets/App.module.css"
+    }
+  ]
+}

@@ -49,8 +49,9 @@
   - `pages-router`
   - `none`
 - `stylingKey`
-  - `tailwind` если выбран Tailwind
-  - `no-styling` иначе
+  - `tailwind`
+  - `css-modules`
+  - `styled-components`
 
 ### Примеры
 

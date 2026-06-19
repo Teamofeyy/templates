@@ -1,0 +1,14 @@
+{
+  "edits": [
+    {
+      "mode": "replace",
+      "target": "nuxt.config.ts",
+      "template": "snippets/nuxt.config.ts"
+    },
+    {
+      "mode": "replace",
+      "target": "app/assets/css/main.css",
+      "template": "snippets/main.css"
+    }
+  ]
+}

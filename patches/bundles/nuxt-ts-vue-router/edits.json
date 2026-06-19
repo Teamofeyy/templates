@@ -1,0 +1,19 @@
+{
+  "edits": [
+    {
+      "mode": "replace",
+      "target": "app/app.vue",
+      "template": "snippets/app.vue"
+    },
+    {
+      "mode": "replace",
+      "target": "app/pages/index.vue",
+      "template": "snippets/index.vue"
+    },
+    {
+      "mode": "replace",
+      "target": "app/pages/about.vue",
+      "template": "snippets/about.vue"
+    }
+  ]
+}
