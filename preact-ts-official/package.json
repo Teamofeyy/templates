@@ -12,5 +12,11 @@
 	"devDependencies": {
 		"@preact/preset-vite": "^2.10.2",
 		"vite": "^7.0.4"
+	},
+	"overrides": {
+		"picomatch": "4.0.4",
+		"@prefresh/vite": {
+			"picomatch": "2.3.2"
+		}
 	}
 }
